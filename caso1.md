@@ -3,7 +3,7 @@ Se requiere crear una consulta para:
     Obtener de manera ordenada la lista de vistas y modulos a los que tiene acceso un rol en estado activo. 
     role[name=> rol, route => ruta]
     module[name=> modulo, route => paquete]
-    
+
     Nota: order by atributo
     SELECT 
         * 
@@ -11,7 +11,7 @@ Se requiere crear una consulta para:
         persona p
     ORDER BY p.nombre
 
-    ```sql
+```sql
 SELECT 
     r.name AS rol,
     m.name AS nombre,
