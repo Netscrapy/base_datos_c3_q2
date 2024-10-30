@@ -30,4 +30,4 @@ ORDER BY r.name
 
 # Resultado
 
-![Consulta completa](img/IMG_1.png)
+![Consulta completa](IMG/IMG_1.png)
